@@ -14,6 +14,8 @@ runs:
         version: 1.0
     - name: Install yq
       uses: chrisdickinson/setup-yq@latest
+      with:
+        yq-version: 4.45.1
     - name: Run script
       run: |
         chmod +x ./.github/actions/generate-prism-pack/generatePrismPack.bash
