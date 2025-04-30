@@ -1426,6 +1426,11 @@ hash = "97c59cf01682401bc27dcff998472b16df033e7fb1a31e2d13890f9b3645c2e6"
 metafile = true
 
 [[files]]
+file = "mods/unified-resources.pw.toml"
+hash = "202cd9ac1b307cc82b8cf8d380fa467080e242bb809b6c9d36ff575a51be4fff"
+metafile = true
+
+[[files]]
 file = "mods/waystones.pw.toml"
 hash = "4931c4e65980ea1a95a61b35b18e7e893d59befce9c0764c387aa7773c44b15f"
 metafile = true
