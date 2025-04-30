@@ -1,0 +1,9 @@
+.git/**
+.gitattributes
+.gitignore
+LICENSE
+README.md
+TODO.md
+.DS_Store
+.unsup-mmc-files
+.github/**

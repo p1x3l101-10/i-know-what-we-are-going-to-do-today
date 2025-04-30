@@ -1,0 +1,13 @@
+name = "I Know What We Are Going to Do Today"
+author = "Spradley"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "a98cbf1698c46c173fbc5e17ad7f726a879f5ce1ae0fc51ccf5384b425f410f7"
+
+[versions]
+forge = "36.2.26"
+minecraft = "1.16.5"
