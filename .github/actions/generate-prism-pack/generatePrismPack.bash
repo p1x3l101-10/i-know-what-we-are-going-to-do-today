@@ -45,10 +45,10 @@ fi
 # Generate agents
 WORKDIR="$(mktemp -d)"
 pushd "$1/components" || exit 1
-yq '.version = env(MC_VERSION)' ./minecraft.yml > $WORKDIR/minecraft.yml
-yq '.version = env(UNSUP_VERSION)' ./unsup.yml > $WORKDIR/unsup.yml
+yq e '.version = env(MC_VERSION)' ./minecraft.yml > $WORKDIR/minecraft.yml
+yq e '.version = env(UNSUP_VERSION)' ./unsup.yml > $WORKDIR/unsup.yml
 if [[ $MODLOADER == "forge" ]]; then
-  yq '.version = env(FORGE_VERSION)' ./forge.yml > $WORKDIR/loader.yml
+  yq e '.version = env(FORGE_VERSION)' ./forge.yml > $WORKDIR/loader.yml
   echo "" > $WORKDIR/extra.yml
 elif [[ $MODLOADER == "fabric" ]]; then
   echo "Not yet implimented for fabric loader!"
@@ -62,9 +62,9 @@ else
 fi
 
 if [[ $LWJGL_MAJOR == "3" ]]; then
-  yq '.version = env(LWJGL3_VERSION)' ./lwjgl3.yml > $WORKDIR/lwjgl.yml
+  yq e '.version = env(LWJGL3_VERSION)' ./lwjgl3.yml > $WORKDIR/lwjgl.yml
 elif [[ $LWJGL_MAJOR == "2" ]]; then
-  yq '.version = env(LWJGL_VERSION)' ./lwjgl.yml > $WORKDIR/lwjgl.yml
+  yq e '.version = env(LWJGL_VERSION)' ./lwjgl.yml > $WORKDIR/lwjgl.yml
 else
   echo "Unsupported lwjgl"
   exit 1
@@ -81,7 +81,7 @@ mkdir minecraft
 popd || exit 1
 popd || exit 1
 pushd "$1/patches" || exit 1
-yq -o json '.version = env(UNSUP_VERSION)' ./com.unascribed.unsup.yml > $WORKDIR/patches/com.unascribed.unsup.json
+yq -o json e '.version = env(UNSUP_VERSION)' ./com.unascribed.unsup.yml > $WORKDIR/patches/com.unascribed.unsup.json
 popd || exit 1
 cp ./unsup.ini $WORKDIR/minecraft/unsup.ini
 cat <<EOF > $WORKDIR/instance.cfg
