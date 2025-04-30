@@ -19,9 +19,9 @@ jobs:
     - name: Export for curseforge
       run: packwiz curseforge export --output curseforge.zip
     - name: Create a prismlauncher instance
-      run: |
-        cd .unsup-mmc-files
-        zip -r ../prismlauncher.zip .
+      uses: ./.github/actions/generate-prism-pack
+      with:
+        outputFile: prismlauncher.zip
     - name: Upload assets
       uses: actions/upload-artifact@v4
       with:

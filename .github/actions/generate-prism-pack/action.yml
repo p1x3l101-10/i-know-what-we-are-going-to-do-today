@@ -1,0 +1,16 @@
+name: Create MMC Export
+description: Creates a prismlauncher pack
+inputs:
+  outputFile:
+    description: Output file to generate
+    required: true
+runs:
+  using: composite
+  steps:
+    - name: Install dependancies
+      uses: awalsh128/cache-apt-pkgs-action@latest
+      with:
+        packages: yq zip
+        version: 1.0
+    - name: Run script
+      run: ./github/actions/generate-prism-pack/generatePrismPack.bash ./github/actions/generate-prism-pack ${{ inputs.outputFile }}
