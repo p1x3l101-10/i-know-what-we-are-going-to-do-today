@@ -16,6 +16,7 @@ runs:
       uses: chrisdickinson/setup-yq@latest
       with:
         yq-version: 4.45.1
+        yq-url: https://github.com/mikefarah/yq/releases/download/4.45.1/yq_${{ runner.os }}_${{ runner.arch }}
     - name: Run script
       run: |
         chmod +x ./.github/actions/generate-prism-pack/generatePrismPack.bash
