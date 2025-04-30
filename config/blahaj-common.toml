@@ -1,0 +1,7 @@
+#Enable Klappar Haj? (Should it spawn naturally in the world?)
+"Klappar Haj" = true
+#Enable Blavingad? (Should it be craftable?)
+Blavingad = true
+#Enable the bread pillow? (Should it be craftable?)
+Bread = true
+

@@ -1,0 +1,13 @@
+name = "IceAndFireAdditions"
+filename = "iceandfire V3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cd4731e743ae6797796614acb87ff530d41c7200"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4477742
+project-id = 845295

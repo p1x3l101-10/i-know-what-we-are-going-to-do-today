@@ -1,0 +1,13 @@
+name = "AppleSkin"
+filename = "appleskin-forge-mc1.16.x-2.5.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "eedbba977def58ce87d23e32391c01692121da86"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4770812
+project-id = 248787

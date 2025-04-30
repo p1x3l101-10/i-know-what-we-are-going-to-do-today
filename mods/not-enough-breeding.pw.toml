@@ -1,0 +1,13 @@
+name = "Not Enough Breeding"
+filename = "notenoughbreeding-1.16.4-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1258846adc50197e6e94ee06ff33207f1db4f7fa"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3104141
+project-id = 418063

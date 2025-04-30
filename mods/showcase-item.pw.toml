@@ -1,0 +1,13 @@
+name = "Showcase Item"
+filename = "showcaseitem-1.16.5-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6d36e51182749d0f0074deda7c551536c6eca46d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3803272
+project-id = 627196

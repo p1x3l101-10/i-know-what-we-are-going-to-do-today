@@ -1,0 +1,13 @@
+name = "CompactStorage"
+filename = "compactstorage-1.16.5-5.1b17.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "82dcc1869f42173e5d94bd784ff2b490aaa51d63"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3235988
+project-id = 223703

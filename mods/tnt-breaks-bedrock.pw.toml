@@ -1,0 +1,13 @@
+name = "TNT Breaks Bedrock"
+filename = "tntbreaksbedrock_1.16.5-1.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7f22da6fc902b5d438ad61b5fbb643d9b2565b90"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3400521
+project-id = 344219

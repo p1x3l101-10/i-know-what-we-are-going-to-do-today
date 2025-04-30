@@ -1,0 +1,13 @@
+name = "Simply Backpacks"
+filename = "simplybackpacks-1.16.5-2.1.2-build.49.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5918ea07e29c379e4e2d88c0779dfbce7fd8a4b1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4413247
+project-id = 311595

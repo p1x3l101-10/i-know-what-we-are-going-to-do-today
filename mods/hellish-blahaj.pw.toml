@@ -1,0 +1,13 @@
+name = "Hellish Blåhaj"
+filename = "blahaj-1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2e76338da6ffb07d7288c6d57ee341b878750b23"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4757824
+project-id = 836842

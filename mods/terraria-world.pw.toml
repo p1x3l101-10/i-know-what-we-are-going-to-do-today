@@ -1,0 +1,13 @@
+name = "Terraria World"
+filename = "Terraria World - Release 0.5.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9c9390b1e7bd46beeda9f60e9815045985bb2978"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3745187
+project-id = 601899

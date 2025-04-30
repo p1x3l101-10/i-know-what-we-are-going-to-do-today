@@ -1,0 +1,13 @@
+name = "Just Enough Piglin Bartering"
+filename = "JEPB-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "754a025ee3a6cad66ccbdd92b7a4efe8a9f97263"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3172880
+project-id = 437558

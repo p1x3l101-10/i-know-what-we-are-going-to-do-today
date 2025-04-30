@@ -1,0 +1,13 @@
+name = "AllTheCompressed"
+filename = "AllTheCompressed-1.0.4-1.16.5-36.2.29.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f313f9b68fd4c6a1845600886dab023dde13feb6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3670604
+project-id = 514045

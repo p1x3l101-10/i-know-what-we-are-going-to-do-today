@@ -1,0 +1,13 @@
+name = "Cyclic"
+filename = "Cyclic-1.16.5-1.6.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "26bef11046c08e2c396bc517f44140c23ace082f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6247927
+project-id = 239286
