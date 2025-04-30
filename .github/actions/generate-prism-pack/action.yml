@@ -13,5 +13,7 @@ runs:
         packages: yq zip
         version: 1.0
     - name: Run script
-      run: ./github/actions/generate-prism-pack/generatePrismPack.bash ./github/actions/generate-prism-pack ${{ inputs.outputFile }}
+      run: |
+        chmod +x ./.github/actions/generate-prism-pack/generatePrismPack.bash
+        ./.github/actions/generate-prism-pack/generatePrismPack.bash ./.github/actions/generate-prism-pack ${{ inputs.outputFile }}
       shell: bash
