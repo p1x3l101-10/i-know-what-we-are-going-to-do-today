@@ -1,8 +1,9 @@
 name: Build
 on:
   push:
-    branches:
-      - main
+    paths:
+      - pack.toml
+      - .packwizignore
 jobs:
   build:
     name: Build
